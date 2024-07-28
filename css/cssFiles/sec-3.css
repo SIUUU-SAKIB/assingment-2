@@ -79,7 +79,7 @@
     position: absolute;
 }
 .section-3 .content-div .img-3-div {
-    background: url(/Assingment-2/images/exercise3.png);
+    background: url(images/exercise3.png);
     grid-column: 4/5;
     grid-row: 1/2;
     background-position: center;
