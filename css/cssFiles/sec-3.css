@@ -33,7 +33,7 @@
 }
 
  .section-3 .content-div .img-1-div {
-    background: url(/Assingment-2/images/exercise1.jpg);
+    background: url("./exercise1.jpg");
     background-position: center;
     background-size: cover;
     grid-column: 1/2;
@@ -58,7 +58,7 @@
 .section-3 .content-div .img-2-div {
     grid-row: 1/2;
     grid-column: 2/4;
-    background: url(/Assingment-2/images/exercise2.png);
+    background: url("./exercise2.png");
     background-position: center;
     background-size: cover;
 }
@@ -79,7 +79,7 @@
     position: absolute;
 }
 .section-3 .content-div .img-3-div {
-    background: url(images/exercise3.png);
+    background: url("./exercise3.png");
     grid-column: 4/5;
     grid-row: 1/2;
     background-position: center;
@@ -105,7 +105,7 @@
     position: absolute;
 }
 .section-3 .content-div .img-4-div {
-    background: url(/Assingment-2/B10A2-versatile-ui-main/images/exercise4.png);
+    background: url("./exercise4.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@
 }
 
 .section-3 .content-div .img-5-div {
-    background: url(/Assingment-2/B10A2-versatile-ui-main/images/exercise5.jpg);
+    background: url("./exercise5.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -159,7 +159,7 @@
 }
 
 .section-3 .content-div .img-6-div {
-    background: url(/Assingment-2/B10A2-versatile-ui-main/images/exercise6.jpg);
+    background: url("./exercise6.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -361,7 +361,16 @@ table strong {
     margin-left: 1.5rem;
     margin-top: 2rem;
 }
-
+select{
+    outline: none;
+    border: none;
+    padding: 0 3rem;
+}
+option{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: grey;
+}
 /* MEDIA QUERIES */
 @media (max-width: 1330px) {
     .section-3 .content-div {

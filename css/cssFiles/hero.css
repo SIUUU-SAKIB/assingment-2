@@ -168,6 +168,7 @@
     .hero {
         grid-template-columns: 1fr;
     }
+
     .hero .img-div img{
         transform: translateY(1rem);
     }
@@ -187,7 +188,7 @@
         margin-left: 6rem;
     }
     .hero .img-div .video-div {
-        margin-right: -5rem;
+        margin-right: -7rem;
     }
     .hero.content-box h1 span{
         transform: scale(1.2);
@@ -197,12 +198,13 @@
 @media(max-width:420px){
     .hero .img-div{
         margin-right: -2rem;
+        margin-bottom: 1rem;
     }
     .hero .video-div {
-        margin-right: -6rem;
+        margin-right: -10rem;
     }
     .hero .workout{
-        margin-left: -6rem;
+        margin-left: -7rem;
     }
     .hero{
         padding:0;
