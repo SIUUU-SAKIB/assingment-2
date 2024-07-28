@@ -15,20 +15,6 @@ nav{
     /* padding: 5px 5px; */
     padding: 3px;
 }
-@media (max-width:850px){
-    .nav-list{
-        display: none;
-    }
-}
-@media (max-width:600px){
-    .nav-list{
-        display: none;
-        
-    }
-    nav{
-        padding: 2em 2rem;
-    }
-}
 .logo{
     font-size: 3.6rem;
     color: var(--btn-bg-color);
@@ -49,4 +35,18 @@ nav .nav-list ul{
     display: flex;
     gap: 2rem;
     padding: 0 2rem;
+}
+@media (max-width:850px){
+    .nav-list{
+        display: none;
+    }
+}
+@media (max-width:600px){
+    .nav-list{
+        display: none;
+        
+    }
+    nav{
+        padding: 2em 2rem;
+    }
 }
