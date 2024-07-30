@@ -1,18 +1,19 @@
 .hero {
-    padding: 0 6rem;
+    padding: 0 4rem;
     color: white;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
-    column-gap: 2rem;
 }
 .content-box {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    align-self: center;
-    justify-self: center;
+align-items: center;
+justify-content: center;
+margin-top: 4rem;
+
 }
 .content-box h1 {
     font-size: 6.8rem;
@@ -38,6 +39,8 @@
 .hero .img-div {
     align-self: center;
     justify-self: center;
+    align-items: center;
+    justify-content: center;
     display: grid;
     grid-template-columns: 200px 150px 250px;
 }
@@ -45,7 +48,7 @@
     grid-column: 1/-1;
     justify-self: center;
     align-self: center;
-    transform: scaleY(1.5);
+    /* transform: scale(1.5); */
     transform: translateY(-0.1rem);
 }
 

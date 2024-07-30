@@ -4,7 +4,7 @@
     padding: 10rem 2rem;
     display: flex;
     flex-direction: column;
-    gap: 7rem;
+    gap: 5rem;
     justify-content: center;
     align-items: center;
     background-color: black;
@@ -25,7 +25,7 @@
 }
 .section-2 .content-div{
 display: grid;
-grid-template-columns: repeat(4, 1fr);
+grid-template-columns: repeat(4, 25rem);
  gap: 2rem;
 align-items: center;
 justify-content: center;
@@ -38,7 +38,7 @@ padding: 2rem;
 }
 .section-2 .content-div h5{
     color: white;
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     text-align: center;
 }
 .section-2 .content-div p{
@@ -93,6 +93,11 @@ padding: 2rem;
     .section-2 .content-div{
         grid-template-columns: repeat(2, 1fr);
     }    
+    .section-2 .content-div img{
+        width: 40rem;
+        height: 40rem;
+        border-radius: 50%;
+    }
 }
 /* @media(max-width:940px){
     .section-2 .run{
@@ -114,10 +119,20 @@ padding: 2rem;
         justify-content: center;
         text-align: center;
     }
+    .section-2 .content-div img{
+        width: 35rem;
+        height: 35rem;
+        border-radius: 50%;
+    }
     
 }
-@media (max-width:590px){
+@media (max-width:780px){
     .section-2 .content-div{
         grid-template-columns: 1fr;
+    }
+    .section-2 .content-div img{
+        width: 40rem;
+        height: 40rem;
+        border-radius: 50%;
     }
 }
