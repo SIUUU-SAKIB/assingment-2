@@ -279,8 +279,8 @@ table strong {
     gap: 2rem;
 }
 .bmi .text-div {
-    width: 400px;
     text-align: start;
+    width: 40rem;
     margin: 0 3rem;
 }
 .bmi .text-div h3 {
