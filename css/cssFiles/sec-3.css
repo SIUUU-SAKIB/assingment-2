@@ -275,12 +275,13 @@ table strong {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 400px;
+    width: 40rem;
     gap: 2rem;
 }
 .bmi .text-div {
     width: 400px;
     text-align: start;
+    margin: 0 3rem;
 }
 .bmi .text-div h3 {
     font-size: 2.8rem;
@@ -294,11 +295,9 @@ table strong {
 .bmi .calculation {
     height: 200px;
     display: grid;
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(2, 20rem);
     align-items: center;
-    justify-content: center;
-    margin-left: -20px;
-    /* padding: 1rem; */
+    justify-content: start;
     row-gap: 1rem;
     column-gap: 1rem;
 }
@@ -311,12 +310,11 @@ table strong {
     height: 50px;
     display: grid;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     font-size: 2rem;
     padding: 0 2rem;
     background-color: rgba(226, 226, 226, 0.213);
     color: rgb(151, 151, 151);
-    margin-left: 1.5rem;
     border-radius: 1rem;
 }
 .bmi .calculation .last-div {
@@ -325,19 +323,18 @@ table strong {
     height: 50px;
     display: grid;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     font-size: 2rem;
     padding: 0 2rem;
     background-color: rgba(255, 255, 255, 0.213);
     color: rgb(151, 151, 151);
-    margin-left: 1.5rem;
     border-radius: 1rem;
 }
 .bmi .calculation .form {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 0 1.5rem;
+    /* margin: 0 0 0 1.5rem; */
     padding: 0 1rem;
     width: 100%;
     height: 50px;
@@ -406,6 +403,7 @@ option{
         /* transform: translateX(-18rem); */
         grid-template-columns: repeat(2, 30rem);
         align-self: center;
+        justify-self: center;
     }
     .bmi {
         display: flex;
@@ -422,25 +420,21 @@ option{
 }
 @media (max-width: 620px) {
     .bmi .calculation {
-        /* transform: translateX(-16rem); */
         grid-template-columns: repeat(2, 25rem);
     }
-    .bmi .text-div {
-        /* transform: translateX(-14rem); */
-    }
 }
-@media (max-width: 420px) {
-   
-   .calculation, .chart-div  {
-    transform: translateX(-20px);
-   }
+@media (max-width: 430px) {
+    .bmi .calculation .text-div{
+        margin-left: 2rem;
+    }
 }
 @media (max-width: 400px) {
-   
-    .calculation, .chart-div{
-     transform: translateX(-30px);
+    .bmi .calculation {
+        grid-template-columns: repeat(2, 20rem);
     }
-  
+    .bmi .calculation .text-div{
+        width: 80%;
+    }
  }
 @media (max-width: 1000px) {
     .section-3 .content-div {
